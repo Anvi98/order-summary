@@ -4,7 +4,7 @@ import hero from './images/illustration-hero.svg';
 
 const SummaryCard = () => {
   return ( 
-    <div className="bg-white w-3/4 h-auto rounded-2xl shadow-xl shadow-indigo-300/50 max-w-custom">
+    <div className="z-10 bg-white w-3/4 h-auto rounded-2xl shadow-xl shadow-indigo-300/50 max-w-custom">
       <img src={hero} alt="illustration" className="w-auto rounded-t-2xl "/>
       <h1 className="font-bold text-center p-5 text-dark-blue text-md">Order Summary</h1>
       <p className="text-center text-desaturated-blue px-3 text-sm mx-4">You can now listen to millions of songs, audiobooks, and podcasts on any device
@@ -16,10 +16,10 @@ const SummaryCard = () => {
           <p className="font-bold text-sm text-dark-blue ">Annual Plan</p>
           <p className="text-sm text-desaturated-blue">$59.99/year</p>
         </span>
-        <a href="/" className="text-sm underline items-center text-bright-blue mt-2 w-2/5 text-right">Change</a>
+        <a href="/" className="text-sm underline items-center text-bright-blue mt-2 w-2/5 text-right hover:no-underline hover:text-indigo-500">Change</a>
       </div>
-      <button className="mt-5 mx-4 mb-5 px-4 p-2 w-11/12 text-center bg-bright-blue text-white rounded-xl shadow-xl shadow-indigo-300/50">Proceed to payment</button>
-      <p className="text-center text-desaturated-blue mb-5 text-sm mx-4">Cancel Order</p>
+      <button className="mt-5 mx-4 mb-5 px-4 p-2 w-11/12 text-center bg-bright-blue text-white rounded-xl shadow-xl shadow-indigo-300/50 hover:bg-violet-700">Proceed to payment</button>
+      <p className="text-center text-desaturated-blue mb-5 text-sm mx-4 cursor-pointer">Cancel Order</p>
     </div>
    );
 }
