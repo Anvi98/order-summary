@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Demo]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ordersummarytailwindcss-reactjs-OZTnb6Ex8d)
+- Live Site URL: [Live Demo](https://anvi98.github.io/order-summary/)
 
 ### Built with
 
