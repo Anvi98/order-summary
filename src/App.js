@@ -1,9 +1,10 @@
 import './App.css';
+import SummaryCard from './SummaryCard';
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="bg-backgroundM w-full h-screen bg-cover flex justify-center items-center sm:bg-backgroundD">
+      <SummaryCard />
     </div>
   );
 }
