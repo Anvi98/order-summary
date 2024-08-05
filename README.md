@@ -24,7 +24,7 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-
+ 
 ![pic](./pic.png)
 
 ### Links
